@@ -14,9 +14,6 @@ Plug 'tmhedberg/SimpylFold'         " smart folding for python
 Plug 'tpope/vim-surround'           " add symbols around selection
 Plug 'vim-scripts/indentpython.vim' " smart indention for python
 Plug 'scrooloose/nerdcommenter'     " quick comment toggeling
-" Plug 'nathanaelkane/vim-indent-guides'  " indention guide strips
-" Plug 'vim-pandoc/vim-pandoc'        " pandoc vim integration
-" Plug 'vim-pandoc/vim-pandoc-syntax' " pandoc syntax support
 call plug#end()
 
 " UI config
@@ -95,14 +92,3 @@ endif
 "autocompletion for filenames like in bash
 set wildmenu
 set wildmode=longest,list
-
-" configure vim indent guide
-" let g:indent_guides_enable_on_vim_startup = 1
-" let indent_guides_auto_colors = 0
-" let indent_guides_guide_size = 1
-" hi IndentGuidesOdd ctermbg=236
-" hi IndentGuidesEven ctermbg=237
-
-" set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:·
-" set list
-
